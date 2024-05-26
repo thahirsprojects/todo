@@ -1,16 +1,35 @@
-# todo
+# Todo App README
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+Welcome to the Todo App! This application helps you organize your tasks efficiently and boost your productivity. Whether you have a simple shopping list or a complex project to manage, our app provides a user-friendly interface to keep track of everything you need to do.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Add Tasks:** Easily add new tasks with a title and optional description.
+- **Delete Tasks:** Remove tasks that are no longer needed.
+- **Mark as Complete:** Check off tasks when they are done.
+- **Search and Filter:** Quickly find tasks using search and filter options.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+1. **Adding a Task:**
+   - Click the "Add Task" button.
+   - Enter the task title and description.
+   - Set a due date, priority, and category if desired.
+   - Click "Save" to add the task to your list.
+
+2. **Deleting a Task:**
+   - Click the delete icon (🗑️) next to the task you want to remove.
+   - Confirm the deletion.
+
+3. **Marking a Task as Complete:**
+   - Click the checkbox next to the task to mark it as complete.
+   - The task will be moved to the completed tasks section.
+
+4. **Filtering and Searching:**
+   - Use the search bar at the top to find specific tasks.
+   - Apply filters by due date, priority, or category to narrow down the task list.
+
+Thank you for using the Todo App! We hope it helps you stay organized and productive.
