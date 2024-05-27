@@ -9,12 +9,19 @@ class ToDo {
     this.isDone = false,
   });
 
-  static List<ToDo> todoList() {
-    return [
-      ToDo(id: '01',todoText: 'Morning exercise', isDone: true),
-      ToDo(id: '02', todoText: 'Team meeting', isDone: true),
-      ToDo(id: '03', todoText: 'Check mails', ),
-      ToDo(id: '04', todoText: 'Buy groceries'),
-    ];
+  factory ToDo.fromJson(Map<String, dynamic> json) {
+    return ToDo(
+      id: json['id'],
+      todoText: json['todoText'],
+      isDone: json['isDone'],
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'todoText': todoText,
+      'isDone': isDone,
+    };
   }
 }

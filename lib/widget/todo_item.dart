@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:todo/constant/colors.dart';
 import 'package:todo/model/todo.dart';
 
@@ -8,12 +7,12 @@ class ToDoItem extends StatelessWidget {
   final onToDoChanged;
   final onDeleteItem;
 
-  const ToDoItem(
-      {Key? key,
-      required this.todo,
-      required this.onToDoChanged,
-      required this.onDeleteItem})
-      : super(key: key);
+  const ToDoItem({
+    Key? key,
+    required this.todo,
+    required this.onToDoChanged,
+    required this.onDeleteItem,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +45,9 @@ class ToDoItem extends StatelessWidget {
           height: 35,
           width: 35,
           decoration: BoxDecoration(
-              color: tdRed, borderRadius: BorderRadius.circular(5)),
+            color: tdRed,
+            borderRadius: BorderRadius.circular(5),
+          ),
           child: IconButton(
             color: Colors.white,
             iconSize: 18,
