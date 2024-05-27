@@ -22,14 +22,11 @@ Welcome to the Todo App! This application helps you organize your tasks efficien
 
 2. **Deleting a Task:**
    - Click the delete icon (🗑️) next to the task you want to remove.
-   - Confirm the deletion.
 
 3. **Marking a Task as Complete:**
    - Click the checkbox next to the task to mark it as complete.
-   - The task will be moved to the completed tasks section.
 
 4. **Filtering and Searching:**
    - Use the search bar at the top to find specific tasks.
-   - Apply filters by due date, priority, or category to narrow down the task list.
 
 Thank you for using the Todo App! We hope it helps you stay organized and productive.
