@@ -1,4 +1,4 @@
-# Todo App README
+#README
 
 ## Introduction
 
@@ -17,8 +17,7 @@ Welcome to the Todo App! This application helps you organize your tasks efficien
 1. **Adding a Task:**
    - Click the "Add Task" button.
    - Enter the task title and description.
-   - Set a due date, priority, and category if desired.
-   - Click "Save" to add the task to your list.
+   - Click "+" to add the task to your list.
 
 2. **Deleting a Task:**
    - Click the delete icon (🗑️) next to the task you want to remove.
@@ -26,7 +25,7 @@ Welcome to the Todo App! This application helps you organize your tasks efficien
 3. **Marking a Task as Complete:**
    - Click the checkbox next to the task to mark it as complete.
 
-4. **Filtering and Searching:**
+4. **Searching:**
    - Use the search bar at the top to find specific tasks.
 
 Thank you for using the Todo App! We hope it helps you stay organized and productive.
